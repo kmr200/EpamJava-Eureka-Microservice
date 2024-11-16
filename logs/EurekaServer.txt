@@ -1,0 +1,52 @@
+2024-11-15 22:42:54 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Transaction ID: [No Transaction ID] - Could not detect default configuration classes for test class [com.epam.xstack.gym.eurekaserver.EurekaServerApplicationTests]: EurekaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-15 22:42:54 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Transaction ID: [No Transaction ID] - Found @SpringBootConfiguration com.epam.xstack.gym.eurekaserver.EurekaServerApplication for test class com.epam.xstack.gym.eurekaserver.EurekaServerApplicationTests
+2024-11-15 22:42:55 [Test worker] INFO  c.e.x.g.e.EurekaServerApplicationTests - Transaction ID: [No Transaction ID] - Starting EurekaServerApplicationTests using Java 17.0.13 with PID 68380 (started by owner in /Users/owner/Downloads/EpamJava/eureka-server)
+2024-11-15 22:42:55 [Test worker] INFO  c.e.x.g.e.EurekaServerApplicationTests - Transaction ID: [No Transaction ID] - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 22:42:55 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - Transaction ID: [No Transaction ID] - BeanFactory id=42820cf5-323e-34ac-833c-dede01824476
+2024-11-15 22:42:55 [Test worker] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Transaction ID: [No Transaction ID] - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-11-15 22:42:55 [Test worker] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Transaction ID: [No Transaction ID] - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2024-11-15 22:42:55 [Test worker] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Transaction ID: [No Transaction ID] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-11-15 22:42:56 [Test worker] INFO  o.s.c.n.eureka.InstanceInfoFactory - Transaction ID: [No Transaction ID] - Setting initial instance status as: STARTING
+2024-11-15 22:42:56 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Transaction ID: [No Transaction ID] - Initializing Eureka in region us-east-1
+2024-11-15 22:42:56 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Transaction ID: [No Transaction ID] - Client configured to neither register nor query for data.
+2024-11-15 22:42:56 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Transaction ID: [No Transaction ID] - Discovery Client initialized at timestamp 1731692576126 with initial instances count: 0
+2024-11-15 22:42:56 [Test worker] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Initializing ...
+2024-11-15 22:42:56 [Test worker] INFO  c.n.eureka.cluster.PeerEurekaNodes - Transaction ID: [No Transaction ID] - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-11-15 22:42:56 [Test worker] INFO  c.n.d.p.DiscoveryJerseyProvider - Transaction ID: [No Transaction ID] - Using JSON encoding codec LegacyJacksonJson
+2024-11-15 22:42:56 [Test worker] INFO  c.n.d.p.DiscoveryJerseyProvider - Transaction ID: [No Transaction ID] - Using JSON decoding codec LegacyJacksonJson
+2024-11-15 22:42:56 [Test worker] INFO  c.n.d.p.DiscoveryJerseyProvider - Transaction ID: [No Transaction ID] - Using XML encoding codec XStreamXml
+2024-11-15 22:42:56 [Test worker] INFO  c.n.d.p.DiscoveryJerseyProvider - Transaction ID: [No Transaction ID] - Using XML decoding codec XStreamXml
+2024-11-15 22:42:56 [Test worker] INFO  c.n.eureka.cluster.PeerEurekaNodes - Transaction ID: [No Transaction ID] - Replica node URL:  http://localhost:8761/eureka/
+2024-11-15 22:42:56 [Test worker] INFO  c.n.e.r.AbstractInstanceRegistry - Transaction ID: [No Transaction ID] - Finished initializing remote region registries. All known remote regions: []
+2024-11-15 22:42:56 [Test worker] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Initialized
+2024-11-15 22:42:56 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Transaction ID: [No Transaction ID] - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-15 22:42:56 [Test worker] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Transaction ID: [No Transaction ID] - Registering application EUREKA-SERVER with eureka with status UP
+2024-11-15 22:42:56 [Thread-12] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Transaction ID: [No Transaction ID] - isAws returned false
+2024-11-15 22:42:56 [Thread-12] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Transaction ID: [No Transaction ID] - Initialized server context
+2024-11-15 22:42:56 [Thread-12] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Transaction ID: [No Transaction ID] - Got 1 instances from neighboring DS node
+2024-11-15 22:42:56 [Thread-12] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Transaction ID: [No Transaction ID] - Renew threshold is: 1
+2024-11-15 22:42:56 [Thread-12] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Transaction ID: [No Transaction ID] - Changing status to UP
+2024-11-15 22:42:56 [Thread-12] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Transaction ID: [No Transaction ID] - Started Eureka Server
+2024-11-15 22:42:56 [Test worker] INFO  c.e.x.g.e.EurekaServerApplicationTests - Transaction ID: [No Transaction ID] - Started EurekaServerApplicationTests in 1.522 seconds (process running for 2.031)
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Transaction ID: [No Transaction ID] - Unregistering application EUREKA-SERVER with eureka with status DOWN
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Transaction ID: [No Transaction ID] - Shutting down Eureka Server..
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Shutting down ...
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Shut down
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Transaction ID: [No Transaction ID] - Eureka Service is now shutdown...
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Shutting down ...
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Transaction ID: [No Transaction ID] - Shut down
+2024-11-15 22:42:56 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl - Transaction ID: [No Transaction ID] - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Transaction ID: [No Transaction ID] - Shutting down DiscoveryClient ...
+2024-11-15 22:42:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Transaction ID: [No Transaction ID] - Completed shut down of DiscoveryClient

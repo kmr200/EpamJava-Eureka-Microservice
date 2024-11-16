@@ -1,4 +1,4 @@
-package com.epam.xstack.gym.eureka.eurekaserver;
+package com.epam.xstack.gym.eurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
